@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态 -->
+         <item android:state_checked="true">
+             <shape
+                 android:shape="oval">
+                   <!-- 边框颜色 -->
+                 <stroke android:width="1dip" android:color="#1C86EE" />
+             </shape>
+         </item>
+         <!-- 默认状态 -->
+         <item>
+             <shape >
+                 <!-- 边框颜色 -->
+                 <stroke android:width="1dip" android:color="#00000000" />
+             </shape>
+         </item>
+</selector>
